@@ -75,13 +75,6 @@ controller?.finish {
 }
 ```
 
-6. Next we can start the camera. The callback is called when the camera has finished its start up process. This will show the preview in the `previewView`.
-
-```swift
-camera.start {
-    // Do stuff here
-}
-```
 
 ## Putting it all together
 
