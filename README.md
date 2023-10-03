@@ -2,14 +2,15 @@
 
 [![A badge showing the current build status on bitrise. Please click to view more](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c/status.svg?token=zr81eI66uU886cB4Sn-1PQ&branch=main)](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c)
 [![Codecov badge showing code coverage. Please click to view more.](https://codecov.io/gh/samst-one/ImageSequencer/graph/badge.svg?token=VZ6QAWV0G0)](https://codecov.io/gh/samst-one/ImageSequencer)
-
-A framework for iOS that allows you to create videos from a selection of images. Developed by [Sam Stone](https://samst.one).
-
-In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808).
+[![A badge showing Swift compatibility, currently 5.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsamst-one%2FImageSequencer%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/samst-one/ImageSequencer)
+[![A badge showing compatibility with Apple platforms. Currently compatible with iOS, macOS and tvOS.](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsamst-one%2FImageSequencer%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/samst-one/ImageSequencer)
 
 ## Overview
 
-A well-tested, resource efficient package for creating videos from a selection of images.
+ImageSequencer is a Swift framework for iOS, macOS, tvOS that allows you to create videos from a selection of images. Developed by [Sam Stone](https://samst.one).
+
+In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808).
+
 
 The API can be found in the ``ImageSequencerController`` interface.
 
