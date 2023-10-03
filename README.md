@@ -2,7 +2,9 @@
 
 [![A badge showing the current build status on bitrise. Please click to view more](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c/status.svg?token=zr81eI66uU886cB4Sn-1PQ&branch=main)](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c)
 
-A framework for iOS that allows you to creat videos from a selection of images. Developed by [Sam Stone](https://samst.one).
+A framework for iOS that allows you to create videos from a selection of images. Developed by [Sam Stone](https://samst.one).
+
+In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808).
 
 ## Overview
 
