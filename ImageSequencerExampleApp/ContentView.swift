@@ -113,7 +113,3 @@ extension ContentView: Viewable {
         viewModel.renderingState = state
     }
 }
-
-#Preview {
-    ContentView(presenter: Presenter(), viewModel: ViewModel())
-}
