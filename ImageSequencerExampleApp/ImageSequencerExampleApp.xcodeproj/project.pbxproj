@@ -13,27 +13,11 @@
 		5275AD562ACB26E50013CE0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275AD552ACB26E50013CE0D /* Preview Assets.xcassets */; };
 		5275AD7A2ACB27500013CE0D /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 5275AD792ACB27500013CE0D /* ImageSequencer */; };
 		5275AD7C2ACB27600013CE0D /* GenerateImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275AD7B2ACB27600013CE0D /* GenerateImages.swift */; };
+		52B94DA12ACC2A1F008AEAB7 /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */; };
 		52D1A2352ACC0C0C00E7CB18 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2342ACC0C0C00E7CB18 /* Presenter.swift */; };
 		52D1A2372ACC0C2B00E7CB18 /* RenderingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2362ACC0C2B00E7CB18 /* RenderingState.swift */; };
 		52D1A2392ACC0C6600E7CB18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2382ACC0C6600E7CB18 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5275AD5C2ACB26E50013CE0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5275AD432ACB26E30013CE0D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5275AD4A2ACB26E40013CE0D;
-			remoteInfo = ImageSequencerExampleApp;
-		};
-		5275AD662ACB26E50013CE0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5275AD432ACB26E30013CE0D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5275AD4A2ACB26E40013CE0D;
-			remoteInfo = ImageSequencerExampleApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5275AD4B2ACB26E40013CE0D /* ImageSequencerExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSequencerExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +25,6 @@
 		5275AD502ACB26E40013CE0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5275AD522ACB26E50013CE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5275AD552ACB26E50013CE0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5275AD5B2ACB26E50013CE0D /* ImageSequencerExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSequencerExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5275AD652ACB26E50013CE0D /* ImageSequencerExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSequencerExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5275AD7B2ACB27600013CE0D /* GenerateImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateImages.swift; sourceTree = "<group>"; };
 		52D1A2342ACC0C0C00E7CB18 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		52D1A2362ACC0C2B00E7CB18 /* RenderingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingState.swift; sourceTree = "<group>"; };
@@ -54,21 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B94DA12ACC2A1F008AEAB7 /* ImageSequencer in Frameworks */,
 				5275AD7A2ACB27500013CE0D /* ImageSequencer in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5275AD582ACB26E50013CE0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5275AD622ACB26E50013CE0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				5275AD4B2ACB26E40013CE0D /* ImageSequencerExampleApp.app */,
-				5275AD5B2ACB26E50013CE0D /* ImageSequencerExampleAppTests.xctest */,
-				5275AD652ACB26E50013CE0D /* ImageSequencerExampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,46 +101,11 @@
 			name = ImageSequencerExampleApp;
 			packageProductDependencies = (
 				5275AD792ACB27500013CE0D /* ImageSequencer */,
+				52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */,
 			);
 			productName = ImageSequencerExampleApp;
 			productReference = 5275AD4B2ACB26E40013CE0D /* ImageSequencerExampleApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5275AD5A2ACB26E50013CE0D /* ImageSequencerExampleAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5275AD722ACB26E50013CE0D /* Build configuration list for PBXNativeTarget "ImageSequencerExampleAppTests" */;
-			buildPhases = (
-				5275AD572ACB26E50013CE0D /* Sources */,
-				5275AD582ACB26E50013CE0D /* Frameworks */,
-				5275AD592ACB26E50013CE0D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5275AD5D2ACB26E50013CE0D /* PBXTargetDependency */,
-			);
-			name = ImageSequencerExampleAppTests;
-			productName = ImageSequencerExampleAppTests;
-			productReference = 5275AD5B2ACB26E50013CE0D /* ImageSequencerExampleAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5275AD642ACB26E50013CE0D /* ImageSequencerExampleAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5275AD752ACB26E50013CE0D /* Build configuration list for PBXNativeTarget "ImageSequencerExampleAppUITests" */;
-			buildPhases = (
-				5275AD612ACB26E50013CE0D /* Sources */,
-				5275AD622ACB26E50013CE0D /* Frameworks */,
-				5275AD632ACB26E50013CE0D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5275AD672ACB26E50013CE0D /* PBXTargetDependency */,
-			);
-			name = ImageSequencerExampleAppUITests;
-			productName = ImageSequencerExampleAppUITests;
-			productReference = 5275AD652ACB26E50013CE0D /* ImageSequencerExampleAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,14 +120,6 @@
 					5275AD4A2ACB26E40013CE0D = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					5275AD5A2ACB26E50013CE0D = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5275AD4A2ACB26E40013CE0D;
-					};
-					5275AD642ACB26E50013CE0D = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5275AD4A2ACB26E40013CE0D;
-					};
 				};
 			};
 			buildConfigurationList = 5275AD462ACB26E30013CE0D /* Build configuration list for PBXProject "ImageSequencerExampleApp" */;
@@ -208,15 +132,13 @@
 			);
 			mainGroup = 5275AD422ACB26E30013CE0D;
 			packageReferences = (
-				5275AD782ACB27500013CE0D /* XCLocalSwiftPackageReference ".." */,
+				52B94D9F2ACC2A1F008AEAB7 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 5275AD4C2ACB26E40013CE0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5275AD4A2ACB26E40013CE0D /* ImageSequencerExampleApp */,
-				5275AD5A2ACB26E50013CE0D /* ImageSequencerExampleAppTests */,
-				5275AD642ACB26E50013CE0D /* ImageSequencerExampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,20 +150,6 @@
 			files = (
 				5275AD562ACB26E50013CE0D /* Preview Assets.xcassets in Resources */,
 				5275AD532ACB26E50013CE0D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5275AD592ACB26E50013CE0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5275AD632ACB26E50013CE0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,34 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5275AD572ACB26E50013CE0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5275AD612ACB26E50013CE0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5275AD5D2ACB26E50013CE0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5275AD4A2ACB26E40013CE0D /* ImageSequencerExampleApp */;
-			targetProxy = 5275AD5C2ACB26E50013CE0D /* PBXContainerItemProxy */;
-		};
-		5275AD672ACB26E50013CE0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5275AD4A2ACB26E40013CE0D /* ImageSequencerExampleApp */;
-			targetProxy = 5275AD662ACB26E50013CE0D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5275AD6D2ACB26E50013CE0D /* Debug */ = {
@@ -468,82 +349,6 @@
 			};
 			name = Release;
 		};
-		5275AD732ACB26E50013CE0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CAJ5Q4AE6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samstone.ImageSequencerExampleAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSequencerExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageSequencerExampleApp";
-			};
-			name = Debug;
-		};
-		5275AD742ACB26E50013CE0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CAJ5Q4AE6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samstone.ImageSequencerExampleAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSequencerExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageSequencerExampleApp";
-			};
-			name = Release;
-		};
-		5275AD762ACB26E50013CE0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CAJ5Q4AE6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samstone.ImageSequencerExampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImageSequencerExampleApp;
-			};
-			name = Debug;
-		};
-		5275AD772ACB26E50013CE0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CAJ5Q4AE6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.samstone.ImageSequencerExampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImageSequencerExampleApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,28 +370,10 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5275AD722ACB26E50013CE0D /* Build configuration list for PBXNativeTarget "ImageSequencerExampleAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5275AD732ACB26E50013CE0D /* Debug */,
-				5275AD742ACB26E50013CE0D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5275AD752ACB26E50013CE0D /* Build configuration list for PBXNativeTarget "ImageSequencerExampleAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5275AD762ACB26E50013CE0D /* Debug */,
-				5275AD772ACB26E50013CE0D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		5275AD782ACB27500013CE0D /* XCLocalSwiftPackageReference ".." */ = {
+		52B94D9F2ACC2A1F008AEAB7 /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ..;
 		};
@@ -594,6 +381,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		5275AD792ACB27500013CE0D /* ImageSequencer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageSequencer;
+		};
+		52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ImageSequencer;
 		};
