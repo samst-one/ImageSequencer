@@ -21,22 +21,22 @@ class Presenter {
             })
             
             let outputUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("\(UUID().uuidString).mp4")
-            let factory = try? ImageSequencerFactory.make(settings: RenderSettings(bitrate: bitrate,
-                                                                                   size: CGSize(width: width,
-                                                                                                height: height),
-                                                                                   fps: Int32(fps),
-                                                                                   outputUrl: outputUrl))
-            factory?.start()
+            let controller = try? ImageSequencerFactory.make(settings: RenderSettings(bitrate: bitrate,
+                                                                                      size: CGSize(width: width,
+                                                                                                   height: height),
+                                                                                      fps: Int32(fps),
+                                                                                      outputUrl: outputUrl))
+            controller?.start()
             DispatchQueue.main.async {
                 self.view?.didUpdateRenderingState(state: .rendering(percent: 0))
             }
-            factory?.render(images:  images) { percent in
+            controller?.render(images:  images) { percent in
                 DispatchQueue.main.async {
                     self.view?.didUpdateRenderingState(state: .rendering(percent: percent))
                 }
             } completion: { error in
                 if error == nil {
-                    factory?.finish {
+                    controller?.finish {
                         DispatchQueue.main.async {
                             self.view?.didUpdateRenderingState(state: .finished(videoUrl: outputUrl))
                         }
