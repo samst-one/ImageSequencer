@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "06B5001B-2BFA-4381-A5B8-EE6BFEAA1FE2",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "ImageSequencer",
+          "name" : "ImageSequencer"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "ImageSequencerTests",
+        "name" : "ImageSequencerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
