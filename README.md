@@ -4,6 +4,8 @@
 
 A framework for iOS that allows you to creat videos from a selection of images. Developed by [Sam Stone](https://samst.one).
 
+In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808).
+
 ## Overview
 
 A well-tested, resource efficient package for creating videos from a selection of images.
