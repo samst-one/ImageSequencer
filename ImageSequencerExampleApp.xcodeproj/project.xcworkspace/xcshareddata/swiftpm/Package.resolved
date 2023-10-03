@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "imagesequencer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/samst-one/ImageSequencer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2fb348611d82e50c6900aa01eaf23bf58a89b5c5"
+      }
+    }
+  ],
+  "version" : 2
+}

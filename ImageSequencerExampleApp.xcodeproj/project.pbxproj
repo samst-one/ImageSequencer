@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,9 +11,9 @@
 		5275AD512ACB26E40013CE0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275AD502ACB26E40013CE0D /* ContentView.swift */; };
 		5275AD532ACB26E50013CE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275AD522ACB26E50013CE0D /* Assets.xcassets */; };
 		5275AD562ACB26E50013CE0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275AD552ACB26E50013CE0D /* Preview Assets.xcassets */; };
-		5275AD7A2ACB27500013CE0D /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 5275AD792ACB27500013CE0D /* ImageSequencer */; };
 		5275AD7C2ACB27600013CE0D /* GenerateImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275AD7B2ACB27600013CE0D /* GenerateImages.swift */; };
-		52B94DA12ACC2A1F008AEAB7 /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */; };
+		52B94DA42ACC2C3C008AEAB7 /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 52B94DA32ACC2C3C008AEAB7 /* ImageSequencer */; };
+		52C7CFDB2ACC2D9000131BF9 /* ImageSequencer in Frameworks */ = {isa = PBXBuildFile; productRef = 52C7CFDA2ACC2D9000131BF9 /* ImageSequencer */; };
 		52D1A2352ACC0C0C00E7CB18 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2342ACC0C0C00E7CB18 /* Presenter.swift */; };
 		52D1A2372ACC0C2B00E7CB18 /* RenderingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2362ACC0C2B00E7CB18 /* RenderingState.swift */; };
 		52D1A2392ACC0C6600E7CB18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1A2382ACC0C6600E7CB18 /* ViewModel.swift */; };
@@ -36,8 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B94DA12ACC2A1F008AEAB7 /* ImageSequencer in Frameworks */,
-				5275AD7A2ACB27500013CE0D /* ImageSequencer in Frameworks */,
+				52C7CFDB2ACC2D9000131BF9 /* ImageSequencer in Frameworks */,
+				52B94DA42ACC2C3C008AEAB7 /* ImageSequencer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			);
 			name = ImageSequencerExampleApp;
 			packageProductDependencies = (
-				5275AD792ACB27500013CE0D /* ImageSequencer */,
-				52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */,
+				52B94DA32ACC2C3C008AEAB7 /* ImageSequencer */,
+				52C7CFDA2ACC2D9000131BF9 /* ImageSequencer */,
 			);
 			productName = ImageSequencerExampleApp;
 			productReference = 5275AD4B2ACB26E40013CE0D /* ImageSequencerExampleApp.app */;
@@ -132,7 +132,7 @@
 			);
 			mainGroup = 5275AD422ACB26E30013CE0D;
 			packageReferences = (
-				52B94D9F2ACC2A1F008AEAB7 /* XCLocalSwiftPackageReference ".." */,
+				52C7CFD92ACC2D9000131BF9 /* XCRemoteSwiftPackageReference "ImageSequencer" */,
 			);
 			productRefGroup = 5275AD4C2ACB26E40013CE0D /* Products */;
 			projectDirPath = "";
@@ -372,20 +372,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		52B94D9F2ACC2A1F008AEAB7 /* XCLocalSwiftPackageReference ".." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ..;
+/* Begin XCRemoteSwiftPackageReference section */
+		52C7CFD92ACC2D9000131BF9 /* XCRemoteSwiftPackageReference "ImageSequencer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/samst-one/ImageSequencer.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5275AD792ACB27500013CE0D /* ImageSequencer */ = {
+		52B94DA32ACC2C3C008AEAB7 /* ImageSequencer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ImageSequencer;
 		};
-		52B94DA02ACC2A1F008AEAB7 /* ImageSequencer */ = {
+		52C7CFDA2ACC2D9000131BF9 /* ImageSequencer */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 52C7CFD92ACC2D9000131BF9 /* XCRemoteSwiftPackageReference "ImageSequencer" */;
 			productName = ImageSequencer;
 		};
 /* End XCSwiftPackageProductDependency section */
