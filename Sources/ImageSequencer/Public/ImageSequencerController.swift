@@ -22,14 +22,16 @@ public protocol ImageSequencerController {
     
     
     /**
-        Should be called once the rendering has finished to produce the finalised video.
+    Should be called once the rendering has finished to produce the finalised video.
+     - Parameters:
+        - completion: A closure to that is called with the output URL of the video when ImageSequencer has finished rendering the video.
      */
-    func finish(completion: @escaping () -> ())
+    func finish(completion: @escaping (URL) -> ())
 
     
     
     /**
-        To be called mid way through a render should a user wish to cancel the rendering.
+    To be called mid way through a render should a user wish to cancel the rendering.
      */
     func cancel()
 }

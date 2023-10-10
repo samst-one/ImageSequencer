@@ -71,8 +71,8 @@ controller?.render(images:  images) { percent in
 5. Once the `completion` handler has been called without an error, you call the `finish()` method to produce the video. The video can be found at the output URL that was provided in the render settings.
 
 ```swift
-controller?.finish {
-
+controller?.finish { outputUrl in
+// Video now available at output URL provided.
 }
 ```
 
@@ -97,8 +97,8 @@ controller?.render(images:  images) { percent in
     // Update the user on progress here.
 } completion: { error in
     if error == nil {
-        controller?.finish {
-            // URL now available at output URL provided.
+        controller?.finish { outputUrl in
+            // Video now available at output URL provided.
         }
     }
 }

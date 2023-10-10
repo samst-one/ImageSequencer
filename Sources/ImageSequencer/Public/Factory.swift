@@ -47,7 +47,6 @@ public enum ImageSequencerFactory {
                 
         let pixelBufferAdaptor = DefaultAssetWriterInputPixelBufferAdaptor(pixelBufferAdaptor: avPixelBufferAdapter)
         
-
         return FrameworkDependencies(videoWriter: videoWriter,
                                      videoWriterInput: videoWriterInput,
                                      pixelBufferController: pixelBufferController,

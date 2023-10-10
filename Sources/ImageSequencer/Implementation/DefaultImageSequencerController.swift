@@ -33,7 +33,7 @@ class DefaultImageSequencerController: ImageSequencerController {
         startRenderUseCase.start()
     }
     
-    func finish(completion: @escaping () -> ()) {
+    func finish(completion: @escaping (URL) -> ()) {
         finishRenderUseCase.finish(completion: completion)
     }
     

@@ -128,6 +128,9 @@ class SpyAssetWriterInput: AssetWriterInput {
 }
 
 class SpyAssetWriter: AssetWriter {
+    var outputUrl: URL {
+        return URL(string: "https://www.google.com")!
+    }
     
     func canApply(outputSettings: [String : Any]) -> Bool {
         return false

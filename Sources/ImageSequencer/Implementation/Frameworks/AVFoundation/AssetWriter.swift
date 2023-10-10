@@ -6,6 +6,7 @@ protocol AssetWriter {
     func startSession()
     func finishWriting(completion: @escaping () -> ())
     func cancelWriting()
+    var outputUrl: URL { get }
 }
 
 class DefaultAssetWriter: AssetWriter {
@@ -33,5 +34,9 @@ class DefaultAssetWriter: AssetWriter {
     
     func cancelWriting() {
         assetWriter.cancelWriting()
+    }
+    
+    var outputUrl: URL {
+        assetWriter.outputURL
     }
 }

@@ -11,11 +11,11 @@ class FinishRenderUseCase {
         self.assetWriter = assetWriter
     }
     
-    func finish(completion: @escaping () -> ()) {
+    func finish(completion: @escaping (URL) -> ()) {
         videoWriterInput.markAsFinished()
         assetWriter.finishWriting() {
             DispatchQueue.main.async {
-                completion()
+                completion(self.assetWriter.outputUrl)
             }
         }
     }
