@@ -9,7 +9,7 @@
 
 ImageSequencer is a Swift framework for iOS, macOS, tvOS that allows you to create videos from a selection of images. Developed by [Sam Stone](https://samst.one).
 
-In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808).
+In use in production with [Lapsey](https://apps.apple.com/gb/app/lapsey/id6467548808). Create beautiful time-lapses on iOS - find out more [here](https://lapsey.app).
 
 
 The API can be found in the ``ImageSequencerController`` interface.
