@@ -1,5 +1,6 @@
 # ImageSequencer
 
+[![A badge showing the current build status on bitrise. Please click to view more](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c/status.svg?token=zr81eI66uU886cB4Sn-1PQ&branch=main)](https://app.bitrise.io/app/4e19a931-761f-4f2b-b360-dcf083ca551c)
 [![A badge showing Swift compatibility, currently 5.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsamst-one%2FImageSequencer%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/samst-one/ImageSequencer)
 [![A badge showing compatibility with Apple platforms. Currently compatible with iOS, macOS and tvOS.](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsamst-one%2FImageSequencer%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/samst-one/ImageSequencer)
 

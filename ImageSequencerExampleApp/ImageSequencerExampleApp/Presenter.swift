@@ -36,7 +36,7 @@ class Presenter {
                 }
             } completion: { error in
                 if error == nil {
-                    controller?.finish { outputUrl in
+                    controller?.finish {
                         DispatchQueue.main.async {
                             self.view?.didUpdateRenderingState(state: .finished(videoUrl: outputUrl))
                         }
